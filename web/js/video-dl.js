@@ -49,7 +49,7 @@ function video_dl(output, inputurl, dlsupport, messageoutput) {
         // Working...
         $(output).html("<h2>Working...</h2>");
         // Prepare URL for API request
-        url = "https://api.daniil.it/?url=" + encodeURIComponent(inputurl);
+        url = "https://apiserverowefnoewinf.herokuapp.com/api/info?url=" + encodeURIComponent(inputurl);
         // Create XMLHttpRequest 
         var xmlhttp = new XMLHttpRequest();
         // Prepare request
